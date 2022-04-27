@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>narutoworld</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: url(bgimage2mod.jpg) top no-repeat;
+            /* background-size: 100%; */
+            height: 55rem;
+            width: 70rem;
+            background-repeat: no-repeat;
+            background-color: rgb(24, 1, 1);
+            font-family: 'Redressed', cursive;
+            color: rgb(3, 37, 37);
+            /* border-radius: 10px; */
+        }
+
+        .container {
+            display: flex;
+            /* padding: 10px;
+            margin: 10px; */
+        }
+
+        .logo,
+        .boxes {
+            /* border: 2px solid rgb(14, 13, 13); */
+            height: 70px;
+            width: 200px;
+            margin: 8px;
+            font-size: 4rem;
+            color: cyan;
+        }
+
+        .logo {
+            margin-right: 248px;
+            height: 154px;
+        }
+
+        img {
+            height: 150px;
+            width: 150px;
+            border-radius: 400px;
+            padding: 0px;
+            margin-left: 0px;
+        }
+
+        .boxes img {
+            height: 70px;
+            width: 70px;
+
+        }
+
+        #whatsapp {
+            margin-left: 500px;
+            width: 70px;
+            height: 70px;
+            margin-right: 0px;
+            justify-content: right;
+        }
+
+        .contact {
+            text-align: center;
+            margin: 20px;
+        }
+
+        #one,
+        #two,
+        #three {
+            justify-content: center;
+        }
+
+        .contact {
+            align-items: center;
+        }
+
+        #two {
+            width: 300px;
+        }
+
+        .phno,
+        .email {
+            display: flex;
+        }
+
+        #picbox,
+        #callpic {
+            height: 30px;
+            width: 30px;
+            margin-left: 614px;
+        }
+
+        #form {
+            border: 0.1rem solid rgb(94, 14, 14);
+            height: 27rem;
+            width: 36.25rem;
+            margin-left: 31.25rem;
+            padding: 0px;
+            padding-bottom: 0px;
+            margin-bottom: 40px;
+            border-radius: 2rem;
+            box-shadow: rgb(153, 16, 16) 1rem 1rem 1rem;
+            
+
+        }
+
+        .xbox,
+        .button {
+            width: 33.625rem;
+            height: 2rem;
+            margin: 0.625rem;
+            color: rgb(56, 5, 5);
+            /* background-color: rgb(25, 98, 11); */
+            opacity: 80%;
+            font-family: 'Redressed', cursive;
+            font-size: 2rem;
+            border-radius: 0.5rem;
+        }
+        .button{
+            background-color: yellow;
+            box-shadow: green 4px 4px 4px;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        .kenburns-top {
+            width: 100%;
+            height: 100%;
+            -webkit-animation: kenburns-top 10s ease-out both;
+            animation: kenburns-top 10s ease-out both;
+        }
+
+        @-webkit-keyframes kenburns-top {
+            0% {
+                -webkit-transform: scale(1) translateY(0);
+                transform: scale(1) translateY(0);
+                -webkit-transform-origin: 50% 16%;
+                transform-origin: 50% 16%;
+            }
+
+            100% {
+                -webkit-transform: scale(1.25) translateY(-15px);
+                transform: scale(1.25) translateY(-15px);
+                -webkit-transform-origin: top;
+                transform-origin: top;
+            }
+        }
+
+        @keyframes kenburns-top {
+            0% {
+                -webkit-transform: scale(1) translateY(0);
+                transform: scale(1) translateY(0);
+                -webkit-transform-origin: 50% 16%;
+                transform-origin: 50% 16%;
+            }
+
+            100% {
+                -webkit-transform: scale(1.25) translateY(-15px);
+                transform: scale(1.25) translateY(-15px);
+                -webkit-transform-origin: top;
+                transform-origin: top;
+            }
+        }
+
+        #foot,
+        .fot {
+            height: 28.75rem;
+            width:84rem;
+            border-radius: 0px;
+            /* margin: 0px; */
+            padding: 0px;
+            position: sticky;
+            border-radius: 10px;
+
+        }
+
+        #three {
+            display: flex;
+            width: 400px;
+        }
+
+        .bottext {
+            position: relative;
+            top: -273px;
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .socialMediaHandles {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        #insta,
+        #fb,
+        #twitter {
+            height: 50px;
+            width: 50px;
+            margin: 10px;
+        }
+
+        #twitter {
+            margin-left: 20px;
+        }
+
+        #copy {
+            font-size: 2rem;
+            color: azure;
+        }
+
+        /* *{
+            margin: 0px;
+            padding: 0px;
+            border-radius: 0px; */
+        /* } */
+        #bgimage {
+            position: relative;
+            display: block;
+            bottom: 0px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #image {
+            height: 1000px;
+            width: 200px;
+            border-radius: 0px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* #bo{
+            display: block;
+            positon:relative;
+            right: 100px;
+            left: 100px;
+            border: 2px solid red;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        #mid{
+            display: inline-block;
+            position: relative;
+        } */
+        .lm {
+            display: flex;
+            background-color: rgb(2, 31, 21);
+            opacity: 80%;
+            height: 100px;
+            border-radius: 0px;
+            position: relative;
+            top: 0px;
+            border-radius: 20px;
+            margin-left: 7.75rem;
+        }
+
+        #three {
+            text-align: center;
+        }
+
+        body {
+            width: 85.5rem;
+        }
+
+        .logo,
+        .boxes {
+            margin: 8px;
+        }
+
+        #whatsapp {
+            margin-left: 200px;
+        }
+        .contact{
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 2rem;
+            color: rgb(36, 194, 241);
+        }
+    
+        .contact a{
+            text-decoration: none;
+            color: white;
+        }
+        #this{
+            font-size: 1.5rem;
+            color: antiquewhite;
+            opacity: 1.5;
+        }
+        .container{
+            position: sticky;
+            /* top: 2px; */
+        }
+        .button{
+            height: 2rem;
+            width: 10rem;
+        }
+        .boxes a{
+            text-decoration: none;
+            color: cyan;
+        }
+        a:hover{
+            background-color: rgb(183, 228, 117);
+            color: rgb(3, 3, 43);
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mid">
+        <!-- <div id="bgimage"><img src="bgimage2.jpeg" alt="" id="image"></div> -->
+        <div id="bo">
+            <div class="container">
+                <div class="logo"><img src="logo.png" alt="sharingan"></div>
+                <div class="lm">
+                    <div class="boxes" id="one"><a href="">Home</a></div>
+                    <div class="boxes" id="two"><a href="">About</a></div>
+                    <div class="boxes" id="three">
+                        <div>Watch</div>
+                        <div><a href="https://ww1.gogoanime2.org/watch/naruto-dub"><img src="play.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="boxes" id="whatsapp"><a href=""><img src="wp.png" alt=""></a></div>
+            </div>
+            <div class="contact">
+                <div class="phno">
+                    <div>
+                        <img src="call.png" alt="call us" id="callpic">
+                    </div>
+                    <div>
+                        +91 0612 22 1789
+                    </div>
+                </div>
+                <div class="email">
+                    <div>
+                        <img src="mail.png" alt="" id="picbox">
+                    </div>
+                    <div>
+                        <a href="ranker1.manaswiraj@gmail.com">ranker1.manaswiraj@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div id="form">
+                <form action="backend.php">
+                    <div id="this">
+                        <h1>Fill out this form to reach us</h1>
+                    </div>
+                    <div class="formbox">
+                        <input type="text" name="" class="xbox" placeholder="Enter your name"
+                            style="color: rgb(40, 26, 144);">
+                    </div>
+                    <div class="formbox">
+                        <input type="text" name="" class="xbox" placeholder="Enter your contact number">
+                    </div>
+                    <div class="formbox">
+                        <input type="text" name="" class="xbox" placeholder="Enter your email id">
+                    </div>
+                    <div class="formbox">
+                        <input type="" name="" class="xbox" placeholder="Any queries? Feel free to enter :)">
+                    </div>
+                    <div class="formbox" ><input type="button" value="Submit" class="button"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="fot">
+        <div class="kenburns-top">
+            <img src="akatski.jpg" alt="" id="foot" style="z-index: 1; opacity: 50%; text-align: center;">
+        </div>
+        <div style="z-index: 2;color: rgb(216, 175, 209);" class="bottext">
+            <p style="text-align: center;"> 
+            We are a group of freaks who watch animes all day long. If you wanna be a part of us contact us as mentioned
+            above Some of them being naruto , one piece and all others which interest us <br>
+            So if you think that you are weary of your whole day's work,<br> this site is for you. Just click on the
+            watch icon <br> on the navigation bar.</p> <br><br><br><br>
+            <div class="socialMediaHandles">
+
+                <div>
+                    <a href=""><img src="instalogo.jpg" alt="" id="insta"></a>
+                </div>
+                <div>
+                    <a href=""><img src="fblogo.png" alt="" id="fb"></a>
+                </div>
+                <div>
+                    <a href=""><img src="twitterlogo.png" alt="" id="twitter"></a>
+                </div>
+                <div id="copy">
+                    &copy r_manaswi_195 &nbsp; &nbsp; All rights reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
